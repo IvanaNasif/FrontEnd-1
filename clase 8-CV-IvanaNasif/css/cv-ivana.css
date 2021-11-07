@@ -1,0 +1,63 @@
+
+h5{
+
+    color:aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+     font-family: 'Montserrat', sans-serif;
+     padding-left:10%;
+     padding-right:10%;
+     background-color:#f8edeb;
+ }        
+title {
+    background-color:#57cc99ff;
+    color:#22577aff;
+}
+.foto {
+
+    width: 150px;
+    height:200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+  header {
+      background-color:#cb997e
+}
+  h1 {
+      color:#432534;
+      background-color: #f9dcc4;
+}
+
+  button {
+    border-style: none;
+    border: 1px solid #432534; /*anchura, estilo y color borde*/
+    padding-right: 10px;   /*espacio alrededor texto*/
+    background-color: #f9dcc4; /*color botón*/
+    text-transform: initial; /*capitalización texto*/
+    font-family: 'Montserrat', sans-serif; /*tipografía texto*/
+    border-radius: 35px;
+    padding: left 10%; 
+    text-decoration: none; 
+       
+}
+
+br{
+text-decoration: none;
+color:#eff3f5
+}
+
+h3{
+    color:#432534;
+    background-color: #fec89a;
+}
+
+#espacio-footer{
+    padding-bottom: 10%;
+}
+footer{
+    color:#f9dcc4;
+    background-color: #432534;
+    text-align: center;
+}
