@@ -1,0 +1,67 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #E5E5E5;
+    align-content: center; 
+    margin: 10px;
+    padding: 10px;
+
+}
+.top{
+    text-align: center;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-image:url("/imagenes/foto.png");
+}
+
+.navHeader{
+    background-color:#222222;
+    color:#f3f3f3;
+    padding: 0px;
+
+}
+
+.navLogo{
+    background-color:#F0A83E;
+    color: #3C2313;
+}
+
+.fotoHeader{
+    position: absolute;
+    width: 100%;
+    margin:auto;
+	display:block;
+}
+.descripcion{
+    color:#3C2313 
+}
+.precio{
+    color: #F0A83E;
+}
+footer{
+    background: #3C2313;
+    color:#ffffff;
+}
+.icono{
+    width: 60px;
+    height: 60px;
+    background: #8A8787;
+    border-radius: 29.5px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.piedepag{
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+
+
