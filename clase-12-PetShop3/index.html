@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link href="css/style.css" rel="stylesheet">
+    <title>FrontCats&Dog</title>
+</head>
+<body>
+    
+    <!--barra de Superior-->
+        <nav class="navSup">
+                <div>
+                    <p>Grandes ofertas en comederos</p>
+                </div>
+            
+<!--opciones de idioma y moneda-->
+                <ul class="nav-list">
+                    <li>
+                        <form action="#">
+                            <label for="idioma"> </label>
+                                <select name="idioma" id="idioma">
+                                    <option value="esp">Español</option>
+                                    <option value="ing">Ingles</option>
+                                </select>
+                                
+                        </form>
+                    </li>
+                    <li>
+                        <form action="#">
+                            <label for="precio"> </label>
+                                <select name="precio" id="precio">
+                                    <option value="arg">ARG$</option>
+                                    <option value="dol">US$</option>
+                                </select>
+                                
+                        </form>
+                    </li>
+                </ul>
+        </nav>
+            
+        
+        <!--barra menu principal--> 
+    <header class="header">
+        <div>            
+            <img class="logo" src="imagenes/Logo1.png" alt=logo >
+        </div>
+
+        <nav class="header-list" >
+            <ul class="header-nav-list">
+                <li ><i class="fas fa-paw"></i>Categorias</li>
+                <li><i class="fas fa-paw"></i>Pets</li>
+                <li><i class="fas fa-paw"></i>Nosotros</li>
+                <li><i class="fas fa-paw"></i>Contactanos</li>
+            </ul>
+            <img  class="menu-ham"  src="imagenes/icon-hamburger.svg" alt="">
+        </nav>
+    </header>
+
+    <main>
+        <!--contenido para el area principal-->
+        <!--banner-->
+        <section  class="top">
+            <div class="banner">
+                <h2>¡Es un placer tenerte aquí!</h2>
+                <p>¡Comederos en descuento!</p>   
+                <button class = "btn">COMEDEROS</button>
+            </div>
+            </section>
+        <!--productos-->
+
+        <div class="Pata">
+            <i class="fas fa-paw color fa-5x"></i>
+            <h1>Productos Destacados</h1>
+            <ul class="list-2">
+                <li> Comederos</li>
+                <li>-</li>
+                <li>Accesorios </li>
+                <li>-</li>
+                <li>Comida</li>
+            </ul>
+        </div>
+        <!--productos destacados-->
+        <section class="produc-dest">
+            <article class="card">
+                <img src="imagenes/churrasquito.png" alt=churrasquito>
+                <h3 class="descripcion">Juguete Churrasquito</h3>
+                <p class="precio">$150</p>
+            </article>
+            <article class="card">
+                <img src="imagenes/comedero.png" alt=comedero>
+                <h3 class="descripcion">Comedero</h3>
+                <p class="precio">$250</p>
+            </article>
+            <article class="card">
+                <img src="imagenes/Huesito.png" alt=huesito>
+                <h3 class="descripcion">Juguete Huesito</h3>
+                <p class="precio">$650</p>
+            </article>
+        </section>
+    </main>
+    <!--Formulario-->
+        <h4 class="cont">Contáctanos</h4>
+        <form action="#" method="post" class="formSectionF">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required class=formItem>
+                </div>
+
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico" required class=formItem>
+                </div>
+
+                <div>
+                    <label for="telefono"></label>
+                    <input type="tel" name="tel" id="tel" placeholder="Teléfono" required class=formItem>
+                </div>
+
+                <div class="button">
+                    <input type="reset" value="Resetear" class="formButtonR">
+                    <input type="submit" value="Enviar" class="formButtonS">
+                </div>
+            </form>
+
+<!--subscription-->
+        <section class="subscription">
+            <div class="enve">
+            <img class="emvelope" src="imagenes/Vector (2).png" alt="envelope">
+            <p  class="p-subs">Suscríbete para más novedades</p>
+            </div>
+            <form action="#" method="POST" class="subscr">
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico" required class="formItem-2">
+                </div>
+                <div class="button-2">
+                    <input type="submit" value="Enviar" class="formButton-2">
+                </div>
+            </form>
+        </section>
+</body>
+
+
+    <footer>
+        
+        <section>
+            <article class="art-footer">
+                <div class="contact">          
+                    <img class="iconos" src="imagenes/01_Icono-ubicacion.png" alt="loc">
+                    <h3 class="foot-loc">Localidad</h3>
+                </div>
+                <p class="p">Calle-Provincia</p>
+                <div class="contact">
+                    <img class="iconos" src="imagenes/02_Icono-telefono.png" alt="tel">
+                    <h3 class="foot-tel">Teléfono</h3>
+                </div>
+                <p class="p">111-111-1111</p>
+                <div class="contact">
+                    <img class="iconos" src="imagenes/03_Icono-email.png" alt="e-mail">
+                    <h3 class="foot-e">Correo Electrónico</h3>
+                </div>
+                <p class="p">petshop@catdog.com</p>
+            </article>
+
+            <article class="art-footer">
+                <div>
+                    <img src="imagenes/Logo.png" alt=Logo>
+                </div>
+            </article>
+    </section>
+    </footer>
+
+        <div class="piedepag">
+        <p>Todos los derechos reservados Front End</p>
+        </div>
+    
+
+</html>
