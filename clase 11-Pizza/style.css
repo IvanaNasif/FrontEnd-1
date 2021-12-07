@@ -1,34 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+                            /*HEADER*/
 header{
     display: flex;
     background-color: #222222;
     color:#f3f3f3;
-    font-family: 'Roboto', sans-serif;
-    justify-content: space-between;
-    
-
+    justify-content: space-between;  
+    align-items: center;
+    width: 100vw;
+    height: 100px;
 }
 .logo-1{
-    display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     align-items:center;
     align-self: center;
 }
-
-.nav ul{
+nav ul{
     display: flex;
-    
-    list-style: none;
     justify-content: space-evenly;
     
 }
 .nav li{
     display: flex;
-    padding-left: 50px;
 
 }
 nav a{
     text-decoration: none;
     color: #f3f3f3;
+    align-items:center;
+    margin: 5px;
+}
+                                    /*MAIN*/
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+                                /*ARTICULO FOTO*/
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 50px;
+}
+.back-image{
+    position: relative;
+    width: 490px;
+    height: auto;
+}
+.envio{
+    position: absolute;
+    width: 350px;
+    height: auto;
+    left: 280px;
+    top: 170px;
+    z-index: 30;
+}
+                            /*ARTICULO PODIO*/
+.podio{
+    display: flex;
+    justify-content: space-around;
 
+}
+.title{
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+    margin: 50px;
+}
+.sub-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #222222;
+}
+.list-podio li{
+    margin: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.pizza-falling{
+justify-content: flex-end;
+align-self: center;
+margin-top: 15px;
+
+}
+                                    /*FOOTER*/
+footer{
+    display: flex;
+    background-color: #222222;
+    color:#f3f3f3;
+    justify-content: space-between; 
+    width: 100vw;
+    height: 150px; 
+}
+.footer-list {
+    flex-direction: column;
+}
+.footer-list li{
+padding: 8px;
 }
